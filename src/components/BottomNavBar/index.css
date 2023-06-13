@@ -1,0 +1,49 @@
+
+.bt-nav-bar-bg-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-nav-logo-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+
+.bt-container{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.social-media-logo{
+   font-family: 'Font Awesome 5 Brands';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 13.7143px;
+   line-height: 16px;
+/* identical to box height */
+   text-align: center;
+   color: #3D3C3C;
+   Width:14px;
+   Height:16px;
+}
+
+@media screen and (min-width:390px){
+    .social-media-logo{
+        font-size: 18px;
+        Width:21px;
+        Height:21px;
+    }
+}
+
+@media screen and (min-width:390px){
+    .contact-us-text{
+        font-size: 16px;
+    }
+}

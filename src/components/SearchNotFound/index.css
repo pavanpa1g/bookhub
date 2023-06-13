@@ -1,0 +1,27 @@
+
+.search-not-found-image{
+    width: 257px;
+    height: 176px;
+}
+
+.search-not-found-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-not-found-para{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+text-align: center;
+
+/* Light / blue-gray / 600 */
+
+color: #475569;
+
+}

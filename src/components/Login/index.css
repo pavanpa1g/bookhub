@@ -1,0 +1,134 @@
+.bg-container{
+    display: flex;
+}
+
+.input-container{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: 'center';
+    height: 100vh;
+    background-color: #E5E5E5;
+}
+
+.input-box-container{
+    width: 499px;
+    height: 484px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    margin: 0 auto;
+}
+
+.image{
+    height: 100vh;
+    width: 50%;
+}
+
+.logo{
+    width: 141px;
+    height: 48px;
+    align-self: center;
+    /* margin-bottom: 10px; */
+}
+
+.text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5A7184;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.input{
+    border: 1px solid  #C3CAD9;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C3CAD9;
+    border-radius: 8px; 
+    height: 56px;
+    width: 360px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+    outline: none;
+    padding: 12px;
+    /* margin-bottom: 14px; */
+}
+
+.button{
+    height: 56px;
+    width: 360px;
+    border: none;
+    border-radius: 8px;
+    background: #0284C7;
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+
+.error{
+    color:  #EF4444;
+    margin: 0px;
+    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+@media screen and (max-width: 391px) {
+    .bg-container{
+         display: flex;
+         flex-direction: column;
+         justify-content:center;
+         align-items: center;
+         background: #FFFFFF;
+         width: 100vw;
+         /* padding-top: 16px; */
+         padding: 24px;
+    }
+    .image{
+        width: 216px;
+        height: 216px;
+        border-radius: 50%;
+        margin-bottom: 16px;
+    }
+    .input-container{
+        height: 60vh;
+        width: 100%;
+        justify-content: flex-start;
+    }
+    .input-box-container {
+        width: 100%;
+        margin: none;
+        padding: 0px;
+    }
+
+    .text{
+        height: 19px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .input{
+        width: 100%;
+    }
+    .button{
+        width: 100%;
+    }
+    .logo{
+        width: 104px;
+        height: 28px;
+    }
+}

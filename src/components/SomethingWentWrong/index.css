@@ -1,0 +1,63 @@
+
+
+.something-went-wrong-container{
+    /* height: 90vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.something-went-wrong-image{
+    height: 230px;
+    width: 439px;
+
+}
+
+.something-went-wrong-text{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 48px;
+/* identical to box height, or 133% */
+        text-align: center;
+
+/* Light / blue-gray / 600 */
+        color: #475569;
+}
+
+@media screen and (max-width:391px){
+    .something-went-wrong-image{
+         height: 116px;
+         width: 238px;
+    }
+
+    .something-went-wrong-text{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+
+.try-again-button{
+    /* padding: 12px 24px; */
+    gap: 8px;
+    width: 112px;
+    height: 48px;
+    background: #0284C7;
+    border-radius: 12px;
+    border:none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media screen and (max-width:391px){
+    .try-again-button{
+        height: 32px;
+        width: 87px;
+        border-radius: 8px;
+    }
+}

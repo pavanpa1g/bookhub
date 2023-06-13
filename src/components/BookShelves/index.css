@@ -1,0 +1,220 @@
+
+.bg-bookshelves-container{
+    padding: 24px;
+    min-height: 90vh;
+}
+
+@media screen and (min-width:390px){
+    .bg-bookshelves-container{
+        padding:40px 150px;
+        display: flex;
+    }
+}
+
+.search-input-bg-container{
+    width: 264px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #CBD5E1;
+    border-radius: 4px;
+}
+
+.search-input{
+    width:100%;
+    height: 34px;
+    outline: none;
+    border: none;
+    padding-left:16px;
+    color:  #94A3B8;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px; 
+;
+
+}
+
+.search-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #EDEFF1;
+    width: 52px;
+    height: 34px;
+    border: none;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius: 4px;
+}
+
+.search-logo{
+    width: 20px;
+    height: 20px;
+}
+
+
+.category-item-ul{
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-item-title{
+    border:1px solid #0284C7;
+    display: flex;
+    justify-content: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-right: 14px;
+    color:#0284C7;
+    font-size: 12px;
+    font-weight: 500;
+    /* Padding:14px, 8px, 4px, 8px; */
+}
+
+.selected-list-item{
+        border:1px solid #0284C7;
+    display: flex;
+    justify-content: center;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    margin-right: 14px;
+    color:#FFFFFF;
+    background-color: #0284C7;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.bookshelves-head-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Light / blue-gray / 700 */
+   color: #334155;
+}
+
+
+.some-thing-went-wrong-book-shelves{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lg-category-search-container{
+    display: none;
+}
+.bookshelves-books-item-container{
+    list-style: none;
+    padding-left: 0px;
+}
+
+@media screen and (min-width:390px){
+    ::-webkit-scrollbar {
+  display: none;
+}
+    .bookshelves-books-item-container{
+        width: 883px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 80vh;
+        overflow-x: scroll;
+    }
+
+    .bookshelves-books-item-container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+
+    .lg-category-search-container{
+        display: flex;
+        justify-content: space-between;
+        width: 883px;
+        align-items: center;
+    }
+
+    .sm-search-container{
+        display: none;
+    }
+
+    .categories-container{
+        display: none;   
+}
+}
+
+
+.lg-category-container{
+    display: none;
+}
+
+@media screen and (min-width:390px){
+    .lg-category-container{
+        display: flex;
+        flex-direction: column;
+        width: 256px;
+        background-color:  #FFFFFF;
+        padding: 32px;
+        margin-right: 32px;
+        height: 90vh;
+    }
+
+    .lg-ul-list-category{
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .lg-list-item-category{
+        padding-left: 0px;
+        margin-bottom: 12px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+/* identical to box height, or 150% */
+
+
+/* Light / blue-gray / 600 */
+        color: #475569;
+        cursor: pointer;
+    }
+
+    .lg-selected-li-item{
+        font-style: normal;
+        font-weight: 600;
+        color: #0284C7;
+    }
+
+}
+
+.search-not-found-bookshelves-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+@media screen and (min-width:390px){
+    .search-not-found-bookshelves-container{
+        height: 60vh;
+    }
+}
+
+
+.head-all-books-bookshelves{
+    font-size: 24px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}

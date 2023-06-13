@@ -1,0 +1,248 @@
+.hm-bg-container{
+    min-height: 90vh;
+    padding: 24px;
+    padding-top:4px ;
+    background-color: #E5E5E5;
+    padding-top:20px ;
+}
+
+
+
+.home-book-title{
+    text-align: center;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+/* identical to box height, or 133% */
+    text-align: center;
+/* Light / blue-gray / 700 */
+    color: #334155;
+}
+
+@media screen and (min-width:390px){
+    .home-book-title{
+        font-size:24px;
+        margin-bottom: 10px;
+        line-height: 32px;
+        font-weight: 500;
+    }
+}
+
+.home-para-text{
+    text-align: center;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+/* identical to box height, or 120% */
+    text-align: center;
+/* Light / blue-gray / 600 */
+    color: #475569;
+
+}
+
+@media screen and (min-width:390px){
+    .home-para-text{
+        font-size: 14px;
+    }
+}
+
+.item-logo-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.li-item-slick{
+    text-decoration: none;
+}
+
+.find-books-bg-hm-button{
+    display: none;
+}
+
+@media screen and (min-width:390px){
+    .find-books-bg-hm-button {
+        display: flex;
+        width: 104px; 
+        height: 36px;
+        justify-content: center;
+        align-items: center;
+        background: #0284C7;
+        border-radius: 4px;
+        border:none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        color: #F8FAFC;
+        cursor: pointer;
+    }
+}
+
+.bg-top-rated-books-button{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width:390px){
+    .bg-top-rated-books-button{
+        justify-content: space-between;
+        padding-right:154px ;
+        padding-left: 150px;
+    }
+}
+
+
+@media screen and (min-width:390px){
+    .hm-bg-container{
+        padding-top: 48px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+}
+
+
+.hm-text-head{
+   font-style: normal;
+   font-weight: 600;  
+   font-size: 20px;
+   color: #1E293B;
+   margin-top: 0px;
+}
+
+@media screen and (min-width:390px){
+    .hm-text-head{
+        font-size: 40px;
+        line-height: 64px;
+        margin-bottom: 12px;
+    }
+}
+
+.hm-para-text{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+/* or 171% */ 
+    color: #475569;
+    Width:312px;
+    Height:96px;
+}
+
+@media screen and (min-width:390px){
+    .hm-para-text{
+        font-size: 20px;
+        line-height: 32px;
+        Width:998px;
+        Height:64px;
+    }
+}
+
+.find-books-hm-button {
+    width: 104px;
+    height: 36px;
+    background: #0284C7;
+    border-radius: 4px;
+    border:none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #F8FAFC;
+
+}
+
+@media screen and (min-width:390px){
+    .find-books-hm-button{
+        display: none;
+    }
+}
+
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-container {
+  width: 80%;
+  max-width: 1100px;
+  margin-top: 10px;
+  margin: auto;
+}
+
+@media screen and (min-width:390px){
+    .slick-container{
+        width: 100%;
+    }
+}
+
+
+.logo-image {
+  margin: 0px 10px;
+  height: 90px;
+  width: 134px;
+}
+
+@media screen and (min-width:390px){
+    .logo-image{
+        height: 224px;
+        width: 350px;
+        margin: 0px 20px;
+        margin-bottom: 16px;
+    }
+}
+
+/* You can change the CSS color to style the Next and 
+Previous Arrow buttons according to your project */
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-bg-container{
+    width:  calc(100% + 40px);
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-top: 12px;
+    padding-bottom: 18px;
+    margin-top: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0.443396px rgba(40, 41, 61, 0.08), 0px 0.443396px 0.886792px rgba(96, 97, 112, 0.16);
+    margin-bottom: 30px;
+}
+
+@media screen and (min-width:390px){
+    .slick-bg-container {
+        padding-top: 24px;
+        padding-bottom: 32px;
+        border-radius: 8px;
+    }
+}
+
+.top-books-head-text{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 24px;
+    color: #1E293B;
+    margin-top: 5px;
+}
+
+@media screen and (min-width:390px){
+    .top-books-head-text{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+    }
+}

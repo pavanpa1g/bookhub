@@ -1,0 +1,80 @@
+.page-not-found-bg-container{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+}
+
+.not-found-image{
+    height: 148px;
+width: 225px;
+border-radius: 0px;
+
+}
+
+.page-not-found-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+/* identical to box height, or 133% */
+
+text-align: center;
+
+/* Light / blue-gray / 700 */
+
+color: #334155;
+margin-bottom: 12px;
+}
+
+.sorry-text-para{
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+text-align: center;
+
+/* Light / blue-gray / 600 */
+
+color: #475569;
+margin-top: 0px;
+}
+
+
+.go-back-home-btn{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+
+width: 132px;
+height: 32px;
+
+background: #0284C7;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+
+/* Light / base / white */
+
+color: #FFFFFF;
+border: none;
+
+cursor: pointer;
+}
