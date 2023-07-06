@@ -21,7 +21,7 @@
     color: #334155;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .home-book-title{
         font-size:24px;
         margin-bottom: 10px;
@@ -44,7 +44,7 @@
 
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .home-para-text{
         font-size: 14px;
     }
@@ -63,7 +63,7 @@
     display: none;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .find-books-bg-hm-button {
         display: flex;
         width: 104px; 
@@ -88,7 +88,7 @@
     justify-content: flex-start;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .bg-top-rated-books-button{
         justify-content: space-between;
         padding-right:154px ;
@@ -97,7 +97,7 @@
 }
 
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .hm-bg-container{
         padding-top: 48px;
         padding-left: 100px;
@@ -115,7 +115,7 @@
    margin-top: 0px;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .hm-text-head{
         font-size: 40px;
         line-height: 64px;
@@ -134,7 +134,7 @@
     Height:96px;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .hm-para-text{
         font-size: 20px;
         line-height: 32px;
@@ -157,7 +157,7 @@
 
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .find-books-hm-button{
         display: none;
     }
@@ -178,7 +178,7 @@
   margin: auto;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .slick-container{
         width: 100%;
     }
@@ -191,7 +191,7 @@
   width: 134px;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .logo-image{
         height: 224px;
         width: 350px;
@@ -212,15 +212,16 @@ Previous Arrow buttons according to your project */
     width:  calc(100% + 40px);
     margin-left: -20px;
     margin-right: -20px;
-    padding-top: 12px;
-    padding-bottom: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     margin-top: 10px;
     background: #FFFFFF;
     box-shadow: 0px 0px 0.443396px rgba(40, 41, 61, 0.08), 0px 0.443396px 0.886792px rgba(96, 97, 112, 0.16);
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .slick-bg-container {
         padding-top: 24px;
         padding-bottom: 32px;
@@ -238,7 +239,7 @@ Previous Arrow buttons according to your project */
     margin-top: 5px;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .top-books-head-text{
         font-style: normal;
         font-weight: 600;

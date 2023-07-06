@@ -8,17 +8,21 @@
     padding-right: 24px;
     padding-top: 14px;
     padding-bottom: 14px;
+    background-color: white;
+}
+
+.nav-stick-container{
     position: sticky;
     top:0;
     z-index: 999900;
-    background-color: "#FFFFFF";
 }
+
 
 .nav-bg-icons-container{
     display: none;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .nav-bg-container{
         padding-left: 70px;
         padding-right: 70px;
@@ -84,9 +88,11 @@
     justify-content: space-around;
     align-items: center;
     margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
-@media screen and (min-width:391px){
+@media screen and (min-width:421px){
     .nav-sm-icons-container{
         display: none;
     }

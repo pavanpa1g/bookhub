@@ -23,7 +23,7 @@ const NavBar = () => {
   }
 
   return (
-    <>
+    <div className="nav-stick-container">
       <div className="nav-bg-container">
         <Link to="/">
           <img
@@ -96,7 +96,7 @@ const NavBar = () => {
           </button>
         </ul>
       )}
-    </>
+    </div>
   )
 }
 

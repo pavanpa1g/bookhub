@@ -15,7 +15,7 @@
     padding: 24px;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .detailed-book-container{
         padding-left: 150px;
         padding-right:150px ;
@@ -136,7 +136,7 @@ color: #475569;
 }
 
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .detail-image-discp-container{
         flex-direction: row;
         justify-content: center;

@@ -81,6 +81,13 @@ const BookShelves = () => {
     const onInputChange = event => {
       setSearchInput(event.target.value)
     }
+
+    const onKeyDownEnter = event => {
+      if (event.key === 'Enter') {
+        fetchBooksData()
+      }
+    }
+
     return (
       <div className="search-input-bg-container">
         <input
@@ -89,6 +96,7 @@ const BookShelves = () => {
           value={searchInput}
           className="search-input"
           onChange={onInputChange}
+          onKeyDown={onKeyDownEnter}
         />
         <button
           type="button"

@@ -85,7 +85,7 @@
 }
 
 
-@media screen and (max-width: 391px) {
+@media screen and (max-width: 421px) {
     .bg-container{
          display: flex;
          flex-direction: column;

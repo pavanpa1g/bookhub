@@ -16,7 +16,7 @@ const PageNotFound = () => {
         we are sorry, the page you requested could not be found. Please go back
         to the homepage.
       </p>
-      <Link to="/">
+      <Link to="/" className="page-not-found-link">
         <button
           type="button"
           className="go-back-home-btn"

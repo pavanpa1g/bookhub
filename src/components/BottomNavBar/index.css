@@ -34,7 +34,7 @@
    Height:16px;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .social-media-logo{
         font-size: 18px;
         Width:21px;
@@ -42,7 +42,7 @@
     }
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .contact-us-text{
         font-size: 16px;
     }

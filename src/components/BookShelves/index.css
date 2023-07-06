@@ -4,7 +4,7 @@
     min-height: 90vh;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .bg-bookshelves-container{
         padding:40px 150px;
         display: flex;
@@ -61,10 +61,10 @@
     border:1px solid #0284C7;
     display: flex;
     justify-content: center;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 4px;
-    padding-bottom: 4px;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     border-radius: 25px;
     margin-bottom: 10px;
     margin-right: 14px;
@@ -75,20 +75,8 @@
 }
 
 .selected-list-item{
-        border:1px solid #0284C7;
-    display: flex;
-    justify-content: center;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    border-radius: 25px;
-    margin-bottom: 10px;
-    margin-right: 14px;
     color:#FFFFFF;
     background-color: #0284C7;
-    font-size: 12px;
-    font-weight: 500;
 }
 
 
@@ -120,16 +108,18 @@
     padding-left: 0px;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     ::-webkit-scrollbar {
   display: none;
 }
     .bookshelves-books-item-container{
         width: 883px;
         display: flex;
+        justify-content: space-between;
         flex-wrap: wrap;
         height: 80vh;
         overflow-x: scroll;
+        padding: 10px;
     }
 
     .bookshelves-books-item-container::-webkit-scrollbar {
@@ -159,7 +149,7 @@
     display: none;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .lg-category-container{
         display: flex;
         flex-direction: column;
@@ -206,7 +196,7 @@
     height: 50vh;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:420px){
     .search-not-found-bookshelves-container{
         height: 60vh;
     }

@@ -53,10 +53,13 @@ const Home = () => {
 
   const settings = {
     dots: false,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
+    lazyLoad: true,
+    autoplay: true,
+    autoplaySpeed: 1000,
     responsive: [
       {
         breakpoint: 1024,
@@ -87,7 +90,7 @@ const Home = () => {
       {books.map(eachLogo => (
         <Link
           to={`/books/${eachLogo.id}`}
-          className="li-item-slick"
+          className="li-item-slick slick-item"
           key={eachLogo.id}
         >
           <div className="slick-item item-logo-container">
